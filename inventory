@@ -1,0 +1,8 @@
+[mongodb]
+mongodb.learningdevops.shop
+
+[catalogue]
+catalogue.learningdevops.shop
+
+[web]
+web.learningdevops.shop
