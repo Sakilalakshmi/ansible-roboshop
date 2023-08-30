@@ -74,10 +74,10 @@
   - name: Load values to mongodb
     ansible.builtin.command: mongo --host mongodb.learningdevops.shop < /app/schema/catalogue.js
 
-  - name: start and enable catalogue
+  - name: restart catalogue
     ansible.builtin.service:
       name: catalogue 
-      state: started
+      state: restarted
       enabled: yes
      
 
