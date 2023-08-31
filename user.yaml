@@ -72,7 +72,7 @@
       state: installed
 
   - name: Load values to mongodb
-    ansible.builtin.command: mongo --host mongodb.learningdevops.shop < /app/schema/catalogue.js
+    ansible.builtin.command: mongo --host mongodb.learningdevops.shop < /app/schema/user.js
 
   - name: restart user
     ansible.builtin.service:
