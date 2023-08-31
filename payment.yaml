@@ -46,7 +46,7 @@
   - name: Install dependencies
     ansible.builtin.command: pip3.6 install -r requirements.txt
     args:
-      chdie: /app
+      chdir: /app
 
   - name: copy payment.service
     ansible.builtin.copy:
